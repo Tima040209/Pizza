@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:layout_margin="8dp"
+    >
+    <ImageView
+        android:id="@+id/comboImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@drawable/three"
+        />
+    <TextView
+        android:id="@+id/comboName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:text="Kombo za 3900 kzt"/>
+
+    <TextView
+        android:id="@+id/comboDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        tools:text="Tasty"
+        />
+    <TextView
+        android:id="@+id/comboPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="13sp"
+        android:background="@drawable/background_price"
+        android:textColor="#CF4417"
+        android:gravity="center"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        tools:text="ot 2000 kzt"
+
+        />
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/pizza_image"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        tools:srcCompat="@drawable/bavarskaya"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:orientation="vertical"
+        android:layout_marginStart="13dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/pizza_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Margarita"/>
+
+        <TextView
+            android:id="@+id/pizza_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            tools:text="Tasty"
+            />
+        <TextView
+            android:id="@+id/pizza_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="13sp"
+            android:background="@drawable/background_price"
+            android:textColor="#CF4417"
+            android:gravity="center"
+            tools:text="ot 2000 kzt"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
